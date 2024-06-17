@@ -44,6 +44,7 @@ li{
   cursor: pointer;
   height: 50px;
   opacity: 0;
+  display:none;
   transition: 200ms linear;
   width: 50px;
   display: grid;
@@ -57,6 +58,7 @@ li{
 }
 
 .show{
+ display:block;
  opacity: 1;
  transform: translateY(0px);
 }
