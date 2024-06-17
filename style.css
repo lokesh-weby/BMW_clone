@@ -58,7 +58,7 @@ li{
 }
 
 .show{
- display:block;
+ display:grid;
  opacity: 1;
  transform: translateY(0px);
 }
