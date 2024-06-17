@@ -339,7 +339,7 @@ nav .icons{
   .navitems{
     display: none;
   }
-  footer i{
+  footer .grid-items i{
     visibility: hidden;
   }
   footer .icons i{
@@ -510,9 +510,9 @@ footer input[type=checkbox]:checked>i{
  gap:2em;
  margin: 20px;
 }
-footer i{
-  visibility: visible;
-}
+ footer .grid-items i{
+    visibility: visible;
+  }
 .img-1 .icons i:nth-child(2){
   display: none;
 }
